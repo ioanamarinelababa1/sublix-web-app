@@ -53,7 +53,20 @@ Sublix is built with privacy as the core principle:
 - ✅ Strict Content Security Policy headers
 - ✅ Rate-limited API routes
 - ✅ Input sanitization on all fields
+- ✅ No data ever sent to any server
 
+Sublix has been built and tested with security as a priority.
+
+---
+
+### Infrastructure Security
+| Protection | Details |
+|---|---|
+| HTTPS | Enforced on all requests via Vercel |
+| Firewall | Vercel Firewall active — DDoS mitigation |
+| Bot Protection | Custom rules blocking malicious scanners |
+| Rate Limiting | API routes protected against abuse |
+| Input Sanitization | All user inputs sanitized server-side |
 ---
 
 ## Screenshots
