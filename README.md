@@ -5,6 +5,8 @@ Sublix is a free, privacy-first subscription calculator that helps anyone track 
 
 Add your subscriptions, set prices in any currency, and instantly see your total spending per month, per year, and per day.
 
+https://www.sublix.org/
+
 ---
 
 ## Features
