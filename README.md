@@ -63,6 +63,8 @@ Sublix is built with privacy as the core principle:
 - ✅ Rate-limited API routes
 - ✅ Input sanitization on all fields
 - ✅ No data ever sent to any server
+- ✅ Permissions-Policy | Active |
+- ✅ Nonce-based CSP | Active — per-request cryptographic nonces |
 
 Sublix has been built and tested with security as a priority.
 
@@ -81,11 +83,14 @@ Sublix has been built and tested with security as a priority.
 ### Infrastructure Security
 | Protection | Details |
 |---|---|
-| HTTPS | Enforced on all requests via Vercel |
+| HTTPS | Enforced at Vercel infrastructure level |
+| HSTS | max-age=31536000 includeSubDomains preload |
+| DNSSEC | Enabled via Namecheap |
 | Firewall | Vercel Firewall active — DDoS mitigation |
 | Bot Protection | Custom rules blocking malicious scanners |
 | Rate Limiting | API routes protected against abuse |
 | Input Sanitization | All user inputs sanitized server-side |
+| CSP Nonces | Cryptographic nonces per request via middleware |
 ---
 
 
