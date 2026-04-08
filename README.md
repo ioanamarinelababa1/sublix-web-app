@@ -80,6 +80,18 @@ Sublix has been built and tested with security as a priority.
 
 ---
 
+## Code Quality
+
+- ✅ Full TypeScript strict mode — zero type errors
+- ✅ Runtime type guards on all storage data
+- ✅ ReDoS-safe regex patterns in middleware
+- ✅ WCAG accessibility — aria labels, screen reader support
+- ✅ Error boundaries on PDF generation
+- ✅ Cache-Control headers on all API error responses
+- ✅ Mathematically correct date calculations (365-day year)
+
+---
+
 ### Infrastructure Security
 | Protection | Details |
 |---|---|
