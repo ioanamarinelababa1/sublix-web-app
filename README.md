@@ -1,7 +1,7 @@
 
 ## What is Sublix?
 
-Sublix is a free, privacy-first subscription calculator that helps anyone track their monthly digital spending — no account required, no data stored on servers.
+Sublix is a free, privacy-first subscription calculator that helps anyone track their monthly digital spending — no account required, no data stored on servers, works offline, install as app.
 
 Add your subscriptions, set prices in any currency, and instantly see your total spending per month, per year, and per day.
 
