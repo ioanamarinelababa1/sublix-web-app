@@ -25,6 +25,11 @@ https://www.sublix.org/
 - **100% private** — all data stays in your browser, nothing sent to any server
 - **Fully responsive** — works on mobile, tablet and desktop
 - **No login required** — open and use instantly, like a calculator
+- **Dark/Light mode** — respects system preference, toggle in header
+- **Smart categories** — auto-detected labels with color-coded badges
+  (Entertainment, Productivity, Cloud, Gaming, Music, News, Fitness, Education)
+- **PWA** — installable on iPhone, Android, and desktop as a native app
+- **Offline mode** — works without internet connection after first visit
 
 ---
 
