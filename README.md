@@ -70,6 +70,11 @@ Sublix is built with privacy as the core principle:
 - ✅ No data ever sent to any server
 - ✅ Permissions-Policy | Active |
 - ✅ Nonce-based CSP | Active — per-request cryptographic nonces |
+- ✅ Runtime validation on all localStorage reads (exchange rates, theme, categories)
+- ✅ Category input guard — rejects any value outside the 9 valid categories
+- ✅ API key validated once at module load — not per request
+- ✅ Structural validation on cached exchange rate data
+- ✅ Security audit passed — 0 vulnerabilities remaining
 
 Sublix has been built and tested with security as a priority.
 
