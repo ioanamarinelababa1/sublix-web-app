@@ -52,6 +52,8 @@ Netflix · Spotify · Claude · ChatGPT Plus · Figma · iCloud · Disney+ · Yo
 | PDF Export | jsPDF |
 | Hosting | Vercel (free HTTPS) |
 | Security | CSP headers, rate limiting, input sanitization |
+| PWA | Web App Manifest + Service Worker |
+| Theme | CSS variables + system preference detection |
 
 ---
 
