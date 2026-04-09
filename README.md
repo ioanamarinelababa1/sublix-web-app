@@ -29,6 +29,7 @@ https://www.sublix.org/
 - **Smart categories** — auto-detected labels with color-coded badges
   (Entertainment, Productivity, Cloud, Gaming, Music, News, Fitness, Education)
 - **PWA** — installable on iPhone, Android, and desktop as a native app
+- **Installable as native app** — add to home screen on iPhone, Android, or desktop. Works offline after first visit.
 - **Offline mode** — works without internet connection after first visit
 
 ---
