@@ -5,14 +5,12 @@ Sublix is a free, privacy-first subscription calculator that helps anyone track 
 
 Add your subscriptions, set prices in any currency, and instantly see your total spending per month, per year, and per day.
 
-https://www.sublix.org/ 
-(sublix.org)
+## Live demo: https://www.sublix.org/ 
 
 ---
 
 ### OG Image / Social Preview
 ![Sublix Social Preview](https://sublix.org/og-image.png)
-
 
 ---
 
@@ -47,24 +45,6 @@ Netflix · Spotify · Claude · ChatGPT Plus · Figma · iCloud · Disney+ · Yo
 <img width="1383" height="771" alt="Captură de ecran din 2026-04-12 la 12 42 39" src="https://github.com/user-attachments/assets/8579bad9-7c89-4b80-ad57-09360555f2d3" />
 
 <img width="1349" height="774" alt="Captură de ecran din 2026-04-12 la 12 42 48" src="https://github.com/user-attachments/assets/01921b8f-c482-41e1-a96f-a0135f1316e3" />
-
-
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Framework | Next.js 16 + TypeScript |
-| Styling | Tailwind CSS |
-| Exchange Rates | open.er-api.com (live) |
-| Logo Detection | Clearbit Logo API |
-| PDF Export | jsPDF |
-| Hosting | Vercel (free HTTPS) |
-| Security | CSP headers, rate limiting, input sanitization |
-| PWA | Web App Manifest + Service Worker |
-| Theme | CSS variables + system preference detection |
 
 ---
 
@@ -112,6 +92,22 @@ Sublix has been built and tested with security as a priority.
 - ✅ Error boundaries on PDF generation
 - ✅ Cache-Control headers on all API error responses
 - ✅ Mathematically correct date calculations (365-day year)
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 16 + TypeScript |
+| Styling | Tailwind CSS |
+| Exchange Rates | open.er-api.com (live) |
+| Logo Detection | Clearbit Logo API |
+| PDF Export | jsPDF |
+| Hosting | Vercel (free HTTPS) |
+| Security | CSP headers, rate limiting, input sanitization |
+| PWA | Web App Manifest + Service Worker |
+| Theme | CSS variables + system preference detection |
 
 ---
 
